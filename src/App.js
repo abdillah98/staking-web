@@ -1,7 +1,7 @@
 import {useState, useEffect} from 'react';
 import './App.css';
 import {ethers} from 'ethers';
-import artifact from './artifacts/contracts/Staking.sol/Staking.json';
+// import artifact from './artifacts/contracts/Staking.sol/Staking.json';
 import IconWallet from './icons/icon-wallet.svg';
 import EthLogo from './images/eth-logo.png';
 import MetamaskLogo from './images/metamask-logo.png';
@@ -17,10 +17,10 @@ function App() {
   const [provider, setProvider] = useState(undefined)
   const [signer, setSigner] = useState(undefined)
   const [contract, setContract] = useState(undefined)
-  const [signerAddress, setSignerAddress] = useState(undefined)
+  // const [signerAddress, setSignerAddress] = useState(undefined)
 
   // assets
-  const [assetIds, setAssetIds] = useState([])
+  // const [assetIds, setAssetIds] = useState([])
   const [assets, setAssets] = useState([])
 
   // staking
