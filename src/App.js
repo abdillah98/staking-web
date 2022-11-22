@@ -17,10 +17,10 @@ function App() {
   const [provider, setProvider] = useState(undefined)
   const [signer, setSigner] = useState(undefined)
   const [contract, setContract] = useState(undefined)
-  // const [signerAddress, setSignerAddress] = useState(undefined)
+  const [signerAddress, setSignerAddress] = useState(undefined)
 
   // assets
-  // const [assetIds, setAssetIds] = useState([])
+  const [assetIds, setAssetIds] = useState([])
   const [assets, setAssets] = useState([])
 
   // staking
