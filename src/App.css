@@ -1,0 +1,62 @@
+.wrapper {
+  background-image: url("./images/image-bg.png");
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: cover;
+  height: 100vh;
+}
+.card-option {
+  display: flex;
+  align-content: center;
+  padding: 5px;
+  background-color: #ffffff21;
+  border-radius: 14px;
+}
+.card-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+  width: 50px;
+  background-color: purple;
+  border-radius: 8px;
+  margin-right: 1rem;
+  cursor: pointer;
+}
+.card-text {
+  display: flex;
+  flex-direction: column;
+}
+.card-text-percent {
+  font-size: 20px;
+  font-weight: bold;
+  color: #fff;
+}
+.card-text-month {
+  font-size: 12px;
+  color: #929292;
+}
+.box-orange {
+  background: linear-gradient(44.63deg, #FA905F 9.23%, #DEE02B 86.23%);
+}
+.box-purple {
+  background: linear-gradient(44.63deg, #7E2EE9 9.23%, #E66F81 86.23%);
+}
+.box-blue {
+  background: linear-gradient(44.63deg, #5D39FB 9.23%, #31CFEC 86.23%);
+}
+.card-blur {
+  padding: 1rem;
+  background-color: #ffffff21;
+  border-radius: 14px;
+}
+.btn-gradient {
+  background: linear-gradient(44.63deg, #7E2EE9 9.23%, #E66F81 86.23%);
+  border: transparent;
+  color: #fff;
+  font-weight: bold;
+}
+.btn-gradient:focus,
+.btn-gradient:hover {
+  color: #fff;
+}
