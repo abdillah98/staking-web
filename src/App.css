@@ -60,3 +60,32 @@
 .btn-gradient:hover {
   color: #fff;
 }
+
+/* width */
+.table-responsive::-webkit-scrollbar {
+  width: 4px;
+  height: 6px;
+}
+
+/* Track */
+.table-responsive::-webkit-scrollbar-track {
+  background: #1b1f2e; 
+}
+ 
+/* Handle */
+.table-responsive::-webkit-scrollbar-thumb {
+  background: linear-gradient(44.63deg, #7E2EE9 9.23%, #E66F81 86.23%); 
+  border-radius: 20px
+}
+
+/* Handle on hover */
+.table-responsive::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(44.63deg, #7E2EE9 9.23%, #E66F81 86.23%); 
+}
+
+.table-custom {
+  min-width: 650px !important;
+}
+.table-custom tr td {
+  vertical-align: middle !important;
+}
